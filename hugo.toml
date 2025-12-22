@@ -7,6 +7,18 @@ theme = 'ananke'
 description = "Sysmic es una organización estudiantil enfocada a la investigación y desarrollo de robots autónomos capaces de jugar fútbol en la competencia mundial RoboCup."
 featured_image = '/cover.jpg'
 
+[params.ananke.social]
+[params.ananke.social.follow]
+networks = ["instagram"]
+
+[params.ananke.social.instagram]
+username = "sysmic.robotics"
+
+[params.ananke.social.networks.instagram]
+label = "Instagram"
+icon = "instagram"
+profile = "https://instagram.com/%s"
+
 [[menu.main]]
 name = "Posts"
 url = "/post/"
