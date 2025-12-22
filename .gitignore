@@ -1,0 +1,28 @@
+# Hugo generated files
+public/
+resources/_gen/
+.hugo_build.lock
+
+# Node dependencies (if using npm/yarn)
+node_modules/
+package-lock.json
+yarn.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.iml
+
+# Log files
+*.log
+
+# Temporary files
+tmp/
+temp/

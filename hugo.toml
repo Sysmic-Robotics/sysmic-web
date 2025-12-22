@@ -1,0 +1,26 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'en-us'
+title = 'Sysmic Robotics'
+theme = 'ananke'
+
+[params]
+description = "Sysmic es una organización estudiantil enfocada a la investigación y desarrollo de robots autónomos capaces de jugar fútbol en la competencia mundial RoboCup."
+featured_image = '/cover.jpg'
+
+[[menu.main]]
+name = "Posts"
+url = "/post/"
+weight = 1
+
+[[menu.main]]
+name = "Sobre Nosotros"
+url = "/sobre-nosotros/"
+weight = 2
+
+[[menu.main]]
+name = "Contacto"
+url = "/contacto/"
+weight = 3
+
+[markup.goldmark.renderer]
+unsafe = true
