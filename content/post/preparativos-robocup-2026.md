@@ -2,7 +2,7 @@
 title: "Preparativos para RoboCup 2026"
 date: 2025-12-01
 description: "El equipo se encuentra en plena preparación para participar en RoboCup 2026, trabajando en mejoras clave para la competencia."
-featured_image: "/robocup.jpeg"
+featured_image: "/post2.jpg"
 tags: ["robocup", "competencia", "preparación"]
 categories: ["Noticias"]
 ---

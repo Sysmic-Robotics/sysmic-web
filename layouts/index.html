@@ -33,4 +33,120 @@
       </div>
     </div>
   {{ end }}
+
+  {{/* Sección de Auspiciadores al final */}}
+  <style>
+    .sponsors-section {
+      width: 100%;
+      background-color: #f8f9fa;
+      padding: 4rem 2rem;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    .sponsors-container {
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .sponsors-section h2 {
+      font-size: 2rem;
+      color: #2c3e50;
+      margin-bottom: 2rem;
+      font-weight: 600;
+      text-align: center;
+    }
+    .sponsors-grid {
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 2rem;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      margin: 0 auto;
+      padding: 0 3rem;
+      box-sizing: border-box;
+    }
+    .sponsor-item {
+      background-color: white;
+      padding: 2rem 3rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      flex: 1 1 0;
+      min-width: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 150px;
+      aspect-ratio: 2.5 / 1;
+    }
+    .sponsor-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+    .sponsor-item img {
+      max-width: 90%;
+      max-height: 150px;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      filter: grayscale(100%);
+      opacity: 0.7;
+      transition: filter 0.3s ease, opacity 0.3s ease;
+    }
+    .sponsor-item:hover img {
+      filter: grayscale(0%);
+      opacity: 1;
+    }
+    @media (max-width: 1024px) {
+      .sponsors-grid {
+        flex-wrap: wrap;
+      }
+      .sponsor-item {
+        flex: 1 1 calc(50% - 0.75rem);
+        min-width: 200px;
+      }
+    }
+    @media (max-width: 768px) {
+      .sponsors-section {
+        padding: 2rem 1rem;
+      }
+      .sponsors-section h2 {
+        font-size: 1.5rem;
+      }
+      .sponsor-item {
+        aspect-ratio: 2 / 1;
+        min-height: 120px;
+        padding: 1.5rem;
+        flex: 1 1 calc(50% - 0.5rem);
+      }
+      .sponsor-item img {
+        max-height: 100px;
+      }
+    }
+    @media (max-width: 480px) {
+      .sponsor-item {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+
+  <div class="sponsors-section">
+    <div class="sponsors-container">
+      <h2>Nuestros Auspiciadores</h2>
+      <div class="sponsors-grid">
+        <div class="sponsor-item">
+          <img src="/cir.png" alt="CIR">
+        </div>
+        <div class="sponsor-item">
+          <img src="/logo_uai.png" alt="UAI">
+        </div>
+        <div class="sponsor-item">
+          <img src="/logo_usm.png" alt="USM">
+        </div>
+      </div>
+    </div>
+  </div>
 {{ end }}

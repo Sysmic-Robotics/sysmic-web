@@ -2,7 +2,7 @@
 title: "Nuestro primer torneo internacional"
 date: 2025-12-15
 description: "Sysmic participó en su primer torneo internacional de RoboCup, logrando avances significativos en navegación autónoma."
-featured_image: "/robocup.jpeg"
+featured_image: "/post1.jpg"
 tags: ["robocup", "competencia", "SSL"]
 categories: ["Noticias"]
 ---
