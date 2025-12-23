@@ -38,7 +38,7 @@ featured_image: "/cover.jpg"
 </style>
 
 <div class="robocup-section">
-  <img src="/robocup.jpeg" alt="RoboCup">
+  <img src="/robocup image.jpg" alt="RoboCup">
   <div class="text-content">
     <h2 style="margin-top: 0; font-size: 1.5rem;">¿Que es RoboCup?</h2>
     <p style="font-size: 0.9rem;">Robocup es una competencia internacional que se lleva a cabo anualmente desde el 1997 en diferentes países, con robots autónomos para fomentar el desarrollo, investigación, educación sobre inteligencia artificial. Entre todas las categorías que ofrece la competencia, Sysmic compite en la Small Size League, que consiste en la investigación usando el fútbol como plataforma de desarrollo, teniendo como objetivo que al 2050 un equipo de robots logre vencer a los campeones del mundial de la FIFA de ese año.</p>

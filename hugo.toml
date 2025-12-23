@@ -30,9 +30,14 @@ url = "/sobre-nosotros/"
 weight = 2
 
 [[menu.main]]
+name = "Galería"
+url = "/galeria/"
+weight = 3
+
+[[menu.main]]
 name = "Contacto"
 url = "/contacto/"
-weight = 3
+weight = 4
 
 [markup.goldmark.renderer]
 unsafe = true
