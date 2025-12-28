@@ -13,14 +13,14 @@ Si estás interesado en formar parte de nuestro equipo o colaborar con nosotros,
 
 **Redes Sociales:**
 - Facebook: @SysmicRobotics
-- Instagram: @sysmic_robotics
+- Instagram: @sysmic.robotics
 - Twitter: @SysmicRobotics
 
 ## Ubicación
 
-Universidad [Tu Universidad]  
+Universidad Técnica Federico Santa María
 Laboratorio de Robótica  
-[Dirección]
+Av. España 1680, Valparaíso
 
 ---
 

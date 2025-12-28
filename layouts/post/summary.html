@@ -18,6 +18,11 @@
       {{ .ReadingTime }} {{ cond (eq .ReadingTime 1) "min" "mins" }}
     </div>
     {{ end }}
+    {{ with .Params.author | compare.Default .Site.Params.author }}
+    <div class="f7 white-80 mb2">
+      Por <strong>{{ . }}</strong>
+    </div>
+    {{ end }}
     {{ with .Params.tags }}
     <div class="flex flex-wrap gap2 mt2">
       {{ range first 2 . }}

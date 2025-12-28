@@ -9,15 +9,39 @@ featured_image = '/cover.jpg'
 
 [params.ananke.social]
 [params.ananke.social.follow]
-networks = ["instagram"]
+networks = ["instagram", "linkedin", "tiktok", "youtube"]
 
 [params.ananke.social.instagram]
 username = "sysmic.robotics"
+
+[params.ananke.social.linkedin]
+username = "sysmic-robotics"
+
+[params.ananke.social.youtube]
+username = "sysmic.robotics"
+
+[params.ananke.social.tiktok]
+username = "sysmicrobotics"
 
 [params.ananke.social.networks.instagram]
 label = "Instagram"
 icon = "instagram"
 profile = "https://instagram.com/%s"
+
+[params.ananke.social.networks.linkedin]
+label = "LinkedIn"
+icon = "linkedin"
+profile = "https://www.linkedin.com/company/%s"
+
+[params.ananke.social.networks.youtube]
+label = "YouTube"
+icon = "youtube"
+profile = "https://www.youtube.com/@%s"
+
+[params.ananke.social.networks.tiktok]
+label = "TikTok"
+icon = "tiktok"
+profile = "https://www.tiktok.com/@%s"
 
 [[menu.main]]
 name = "Posts"
@@ -30,14 +54,9 @@ url = "/sobre-nosotros/"
 weight = 2
 
 [[menu.main]]
-name = "Galería"
-url = "/galeria/"
-weight = 3
-
-[[menu.main]]
 name = "Contacto"
 url = "/contacto/"
-weight = 4
+weight = 3
 
 [markup.goldmark.renderer]
 unsafe = true

@@ -25,6 +25,18 @@
 
     {{ partials.Include "site-style.html" . }}
     {{ partials.Include "site-scripts.html" . }}
+    <style>
+      .ananke-socials a {
+        margin-right: 0.5rem !important;
+        margin-left: 0.5rem !important;
+      }
+      .ananke-socials a:first-child {
+        margin-left: 0 !important;
+      }
+      .ananke-socials a:last-child {
+        margin-right: 0 !important;
+      }
+    </style>
 
     {{ block "favicon" . }}
       {{ partials.IncludeCached "site-favicon.html" . }}
