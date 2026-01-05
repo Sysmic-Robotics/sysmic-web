@@ -138,13 +138,13 @@
       <h2>Nuestros Auspiciadores</h2>
       <div class="sponsors-grid">
         <div class="sponsor-item">
-          <img src="{{ "/cir.png" | urls.AbsURL }}" alt="CIR">
+          <img src="{{ printf "%s%s" .Site.BaseURL "cir.png" }}" alt="CIR">
         </div>
         <div class="sponsor-item">
-          <img src="{{ "/logo_uai.png" | urls.AbsURL }}" alt="UAI">
+          <img src="{{ printf "%s%s" .Site.BaseURL "logo_uai.png" }}" alt="UAI">
         </div>
         <div class="sponsor-item">
-          <img src="{{ "/logo_usm.png" | urls.AbsURL }}" alt="USM">
+          <img src="{{ printf "%s%s" .Site.BaseURL "logo_usm.png" }}" alt="USM">
         </div>
       </div>
     </div>
