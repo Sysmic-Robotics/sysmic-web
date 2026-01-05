@@ -1,0 +1,33 @@
+{{/* Script para corregir rutas de imágenes en GitHub Pages con subdirectorio */}}
+<script>
+(function() {
+  // Obtener el baseURL del sitio y extraer el pathname
+  const baseURL = '{{ .Site.BaseURL }}';
+  let basePath = '';
+  
+  // Si el baseURL es una URL completa, extraer el pathname
+  if (baseURL.startsWith('http')) {
+    try {
+      const url = new URL(baseURL);
+      basePath = url.pathname.replace(/\/$/, ''); // Remover trailing slash
+    } catch(e) {
+      basePath = baseURL.replace(/\/$/, '');
+    }
+  } else {
+    basePath = baseURL.replace(/\/$/, '');
+  }
+  
+  // Corregir todas las rutas de imágenes que empiezan con /
+  document.addEventListener('DOMContentLoaded', function() {
+    const images = document.querySelectorAll('img[src^="/"]');
+    images.forEach(function(img) {
+      const src = img.getAttribute('src');
+      // Solo corregir si no es una ruta absoluta completa (que empiece con http)
+      if (src && !src.startsWith('http')) {
+        img.setAttribute('src', basePath + src);
+      }
+    });
+  });
+})();
+</script>
+
