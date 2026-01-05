@@ -68,5 +68,3 @@ Desde ya estamos enfocando el trabajo en:
 ## Gracias
 
 Gracias a quienes nos apoyaron en este camino, dentro y fuera de la universidad. Cada aporte —tiempo, gestión, recursos o difusión— empuja este proyecto hacia adelante.
-
-Si quieres colaborar, generar alianzas o conocer más del trabajo del equipo, escríbenos o síguenos en nuestras redes. 🚀
